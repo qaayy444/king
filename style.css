@@ -6,6 +6,7 @@
 {
 /*   background-color:#c49c57; */
   transition:0.5s;
+  
 }
 .background
 {
@@ -26,13 +27,11 @@ body{
   background-attachment: fixed;
 }
 #box2{
-  
   height:100vh;
   width: 100%;
   background-size: cover;
   display: table;
   background-attachment: fixed;
-  
 }
 h1{
   font-family: arial black;
@@ -48,20 +47,20 @@ h1{
 }
 h2
 {
-  font-family: arial black;
+  font-family: 'cwTeXYen', sans-serif;
+  font-weight:900;
   color: #fff;
   position:relative;
 /*   top:-100px; */
-  font-size: 60px;
+  font-size: 80px;
   margin: 0;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
 }
 h4
-{ 
-  
-  font-family: 'cwTeXYen', sans-serif;;
+{  
+  font-family: 'cwTeXYen', sans-serif;
   color: #fff;
   position:relative;
   left:-50px;
@@ -70,8 +69,7 @@ h4
   text-align: center;
   display: table-cell;
   vertical-align:center;
-  top:300px;
-  
+  top:300px;          
 }
 .p1
 {
@@ -83,6 +81,42 @@ h4
   vertical-align:center;
   overflow:hidden;
 }
-body{
-  background: url(http://insightreport.debeersgroup.com/_images/backgrounds/global-consumer-demand-bg.jpg);
+
+p
+{ 
+  font-size:25px;
+  text-align:center;
+  font-weight:900;
+  font-family:微軟正黑體;
+}
+.card-title
+{
+  opacity:0;
+}
+.card-title:hover
+{
+  opacity:100;
+  
+}
+.img_title
+{
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  
+  opacity:0;
+  background: rgba(0, 0, 0, 1);
+}
+.img_title p
+{ 
+  
+  font-size:30px;
+  text-align:center;
+  font-weight:900; 
+  color:#fff;
+  z-index:1;
+}
+.img_title:hover
+{
+  opacity:1;
 }
